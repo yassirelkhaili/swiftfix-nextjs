@@ -3,6 +3,7 @@ import Image from "next/image"
 const page = () => {
   return (
     <>
+    <main>
             <section className="flex flex-row pl-[6rem]">
             <div className="w-1/2 flex flex-col items-start justify-center gap-[3rem]">
                 <div className="flex flex-col justify-center items-start gap-[2rem]">
@@ -26,6 +27,7 @@ const page = () => {
                 </div>
             </div>
         </section>
+        </main>
     </>
   )
 }

@@ -3,6 +3,7 @@ import Image from "next/image"
 const page = () => {
   return (
     <>
+    <main>
      <section className="flex flex-row pl-[6rem] bg-backgroundColor py-[6rem]">
             <div className="flex flex-col items-start justify-center gap-[3rem] w-1/2">
                 <div className="flex flex-col justify-center items-start gap-[2rem]">
@@ -100,6 +101,7 @@ const page = () => {
                     </svg>                    
             </div>
         </section>
+        </main>
     </>  
     )
 }
