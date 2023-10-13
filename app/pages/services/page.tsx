@@ -62,7 +62,7 @@ const page = () => {
                         </div>
                         <div className="flex justify-center items-center flex-row gap-[1rem]">
                             <div className="testimonial__person__image">
-                                <Image src="./Photo.svg" alt="small profile picture still photo of a client" width="56" height="56"/>
+                                <Image src="../Photo.svg" alt="small profile picture still photo of a client" width="56" height="56"/>
                             </div>
                             <div className="testimonial__person">
                                 <h3 className="not-italic font-bold text-lg leading-7 text-blackColor font-feature-liga font-feature-salt font-inter">Sarah Bentaher</h3>
@@ -78,7 +78,7 @@ const page = () => {
                         </div>
                         <div className="flex justify-center items-center flex-row gap-[1rem]">
                             <div className="testimonial__person__image">
-                                <Image src="./images/Photo2.svg" alt="small profile picture still photo of a client" width="56" height="56"/>
+                                <Image src="../Photo2.svg" alt="small profile picture still photo of a client" width="56" height="56"/>
                             </div>
                             <div className="testimonial__person">
                                 <h3 className="not-italic font-bold text-lg leading-7 text-blackColor font-feature-liga font-feature-salt font-inter">Salima Alami</h3>

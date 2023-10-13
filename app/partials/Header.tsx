@@ -1,4 +1,7 @@
+import Link from "next/link"
+
 const Header = () => {
+    const pagesLinks: Array<string> = ["about", "services", "contact"]
   return (
     <>
     <header>
@@ -15,10 +18,8 @@ const Header = () => {
             <div className="flex justify-center items-center gap-[8rem]">
                 <div>
                     <ul className="flex uppercase gap-[3.5rem]">
-                        <li className="not-italic font-normal text-xs leading-[23px] tracking-[1.5px] cursor-pointer text-poppins"><a className="nav__group__items__list__item__link" href="./index.html">Home</a></li>
-                        <li className="not-italic font-normal text-xs leading-[23px] tracking-[1.5px] cursor-pointer text-poppins"><a className="nav__group__items__list__item__link" href="./about.html">About</a></li>
-                        <li className="not-italic font-normal text-xs leading-[23px] tracking-[1.5px] cursor-pointer text-poppins"><a className="nav__group__items__list__item__link" href="./service.html">Services</a></li>
-                        <li className="not-italic font-normal text-xs leading-[23px] tracking-[1.5px] cursor-pointer text-poppins"><a className="nav__group__items__list__item__link" href="./contact.html">Contact</a></li>
+                        <li className="not-italic font-normal text-xs leading-[23px] tracking-[1.5px] cursor-pointer text-poppins"><Link href="/">Home</Link></li>
+                        {pagesLinks.map((link: string, index: number) => <li key={index} className="not-italic font-normal text-xs leading-[23px] tracking-[1.5px] cursor-pointer text-poppins"><Link href={`/pages/${link}`}>{link}</Link></li>)}
                     </ul>
                 </div>
                 <div className="nav__group__search">
