@@ -49,7 +49,7 @@ export default function Home() {
             <div className="flex justify-center items-start flex-col gap-[2rem] mb-[8rem] pl-[6rem]">
                 <h2 className="not-italic font-bold text-5xl leading-[64px] text-center tracking-[0.5px] text-defaultText font-playfair font-feature-liga font-feature-salt mt-8">Complex Questions?</h2>
                 <div className="not-italic font-normal text-2xl leading-9 max-w-[60vw] tracking-[0.5px] text-greyText font-poppins">Request for a personalized budget for your legal problem. We will send you a coupe options in 24 hours. You can have free consult , if a our first customer</div>
-                <a className="w-[180px] h-[22px] gap-1 block not-italic font-bold text-base leading-[140.5%] flex items-center tracking-[0.08em] text-whiteText bg-main font-jakarta p-8 rounded-lg" href="./contact.html">
+                <a className="w-[180px] h-[22px] gap-1 not-italic font-bold text-base leading-[140.5%] flex items-center tracking-[0.08em] text-whiteText bg-main font-jakarta p-8 rounded-lg" href="./contact.html">
                     <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_10_513)">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M17.637 16.6298C23.4901 21.9471 24.8179 15.7955 28.5446 19.1797C32.1374 22.4436 34.2024 23.0975 29.6503 27.2329C29.0802 27.6493 25.4574 32.6589 12.7259 21.0928C-0.00727797 9.52525 5.50243 6.22984 5.96079 5.71185C10.5239 1.56505 11.2311 3.45243 14.8239 6.71636C18.5506 10.1019 11.7839 11.3125 17.637 16.6298Z" fill="#F9F8F9"/>
